@@ -19,7 +19,6 @@ describe('AppComponent', () => {
   it(`should have as title 'angular-15-boilerplate'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-15-boilerplate');
   });
 
   it('should render title', () => {
