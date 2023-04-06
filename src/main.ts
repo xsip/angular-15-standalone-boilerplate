@@ -1,6 +1,6 @@
 import {bootstrapApplication} from '@angular/platform-browser';
 import {AppComponent} from './app/app.component';
-import {provideRouter, Route} from '@angular/router';
+import {provideRouter, Route, withDebugTracing} from '@angular/router';
 import {HomeComponent} from './app/home/home.component';
 
 const routes: Route[] = [
@@ -8,6 +8,6 @@ const routes: Route[] = [
 ]
 bootstrapApplication(AppComponent, {
   providers: [
-    provideRouter(routes)
+    provideRouter(routes, withDebugTracing()),
   ]
 }).catch(err => console.error(err));
