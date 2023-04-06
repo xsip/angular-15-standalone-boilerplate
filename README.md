@@ -1,4 +1,4 @@
-# Angular15Boilerplate
+# Angular 15 Standalone Boilerplate with Tailwind
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 
